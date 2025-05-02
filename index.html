@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia</title>
+    <link href="font/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link href="new.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <div class="page_width"> 
+    <div class="flex">
+      <!--logo start-->
+      <div class="logo">
+        <img src="images/logo.png" alt="logo">               
+        </div>
+        <!--logo end-->
+        <nav>
+          <ul>
+            <li><a href="##">Home</a></li>
+            <li><a href="##">Blogs</a></li>
+            <li><a href="##">Products</a></li>
+            <li><a href="##">About Us</a></li>
+            <li><a href="##">Contact Us</a></li>
+            
+            
+          </ul>
+        </nav>
+        <div class="cart">
+          <ul>
+            <li><a href="##"><i class="fa-solid fa-heart"></i></a></li>
+            <li><a href="##"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="##"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</header>
+
+<!-- Product Section -->
+
+<section class="product-container">
+  <div class="product-gallery">
+    <div class="main-image">
+      <img id="mainImage" src="images/RutsuGreen.png" alt="Main Shoe" />
+    </div>
+    <div class="thumbnail-row">
+      <img src="images/Rutsu4.png" onclick="changeImage(this)" alt="Thumb 1">
+      <img src="images/Rutsu_Original.png" onclick="changeImage(this)" alt="Thumb 2">
+      <img src="images/shoes.png" onclick="changeImage(this)" alt="Thumb 3">
+      <img src="images/Rutsu6.webp" onclick="changeImage(this)" alt="Thumb 4">
+    </div>
+  </div>
+
+
+<div class="product-details">
+  <h1>Rutsu Original Barefoot Sneakers - High Green</h1>
+  <div class="review">
+    <div class="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <span>140 Reviews</span>
+  </div>
+  <p class="price">$149.00</p>
+  <p class="description">
+    Lightweight, breathable, and built for freedom — experience the natural barefoot feel with every step. Perfect for city walks or nature trails.
+  </p>
+
+  <label for="size">Size:</label>
+  <select id="size">
+    <option>EU 36</option>
+    <option>EU 37</option>
+    <option>EU 38</option>
+    <option>EU 39</option>
+    <option>EU 40</option>
+  </select>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" value="1" min="1" />
+
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+
+<script>
+function changeImage(thumbnail) {
+  document.getElementById('mainImage').src = thumbnail.src;
+}
+</script>
+
+
+
+<!-- Feature Section -->
+<section class="feature">
+    <div class="page_width">
+        <h2 class="title">
+            The Numbers Speak For <strong>Themselves</strong>
+        </h2>
+        <h6>What our users tell us about their experience with CrampsAWAY</h6>
+        <div class="row">
+            <div class="column">
+                <h3>92%</h3>
+                <h4>Experienced instant relief</h4>
+                <p>Users reported faster results compared to traditional pain medication</p>
+            </div>
+            <div class="column">
+                <h3>85%</h3>
+                <h4>Switched to CrampsAWAY permanently</h4>
+                <p>Users found it worked better than their previous solutions</p>
+            </div>
+            <div class="column">
+                <h3>98%</h3>
+                <h4>Share with friends and family</h4>
+                <p>Nearly all users recommend CrampsAWAY to others</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Email Section -->
+<section class="email_section">
+    <div class="page_width">
+        <h2 class="title">
+            <strong> Email </strong> that Simply Delivers
+        </h2>
+            <h6>
+                Your #1 channel deserves more. Here’s how we’re changing the game:
+            </h6>
+
+      <div class="email_flex">
+        
+        <!-- Left Card -->
+        <div class="email_card purple_card">
+          <h2>Multichannel made easy</h2>
+          <p>
+            Crush Email and SMS marketing all in one place. Easily manage automated flows, 
+            grow your lists, and build segments for both channels and shorten time to ROI.
+          </p>
+          <a href="#" class="learn_btn">Learn more</a>
+          <div class="images_inside">
+            <img src="images/Group1.png" alt="Smart Recommendation Box" class="small_img" />
+          </div>
+
+        </div>
+        
+        <!-- Right Card -->
+        <div class="email_card peach_card">
+          <h2>Marketer-friendly pricing</h2>
+          <p>
+            Stop paying for emails you're not sending, and being up-charged based on subscribers. 
+            With flexible, pay-as-you-send pricing, we adjust to meet your actual usage—based on your strategy and seasonality.
+          </p>
+          <a href="#" class="learn_btn">Learn more</a>
+          
+          <div class="images_inside">
+            <img src="images/group2.png" alt="Product Image" class="main_img" />
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+<!-- Option Section -->
+<section class="optionSection">
+    <div class="page_width">
+        <h2 class="title">
+            The Beauty of Blossoms that Simply Delivers 🌸
+        </h2>
+            <h6>
+                Exploring the Grace and Symbolism of the Lotus and Cosmos Flowers
+            </h6>
+        <div class="flex">
+            <div class="col">
+                <div class="option">
+                    <div class="flower1">
+                        <img src="images/flower1.jpg" alt="flower1 Image" class="main_img" />
+                      </div>
+                    <p>The pink lotus symbolizes purity and enlightenment, blooming gracefully over still waters. Its soft petals and golden center create a calming and divine beauty.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="option">
+                    <div class="flower2">
+                        <img src="images/flower2.jpg" alt="flower2 Image" class="main_img" />
+                      </div>
+                    <p>The purple cosmos stands tall with its vibrant, cheerful petals radiating warmth.It represents peace, harmony, and the simple joys of life.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="option">
+                    <div class="flower3">
+                        <img src="images/flower3.jpg" alt="flower3 Image" class="main_img" />
+                      </div>
+                    <p>The white cosmos dances lightly in the breeze against a bright blue sky. Its pure white petals signify innocence, calmness, and new beginnings.</p>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
